@@ -49,4 +49,15 @@ export const App = () => {
 }
 ```
 
+Run demo
+
+```shell
+
+git clone https://github.com/FlatMapIO/radix-ui-themes-cva.git
+
+cd radix-ui-themes-cva
+
+bun demo/main.ts
+```
+
 ![](./demo/demo.png)
