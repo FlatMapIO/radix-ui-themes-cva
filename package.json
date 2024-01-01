@@ -5,7 +5,14 @@
     "name": "huodon",
     "url": "https://github.com/FlatMapIO"
   },
+  "scripts": {
+    "dev": "bun demo/main.tsx"
+  },
   "dependencies": {
     "class-variance-authority": "^0.7.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.20",
+    "voby": "^0.57.3"
   }
 }

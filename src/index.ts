@@ -109,7 +109,7 @@ const utils = {
   },
 
   layouts: {
-    p: classEnum("'rt-r-p'", values.num_0_9),
+    p: classEnum('rt-r-p', values.num_0_9),
     px: classEnum('rt-r-px', values.num_0_9),
     py: classEnum('rt-r-py', values.num_0_9),
     pt: classEnum('rt-r-pt', values.num_0_9),
