@@ -1,0 +1,11 @@
+{
+  "name": "radix-ui-themes-cva",
+  "version": "0.0.1",
+  "author": {
+    "name": "huodon",
+    "url": "https://github.com/FlatMapIO"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0"
+  }
+}
