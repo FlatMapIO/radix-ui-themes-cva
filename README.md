@@ -12,6 +12,8 @@ See [radix-ui](https://www.radix-ui.com/themes/docs/overview/getting-started) fo
 ## Usage
 
 
+> The smallest runnable example can be copied from the [demo](https://github.com/FlatMapIO/radix-ui-themes-cva/tree/main/demo) folder
+
 `index.html`
 
 ```html
