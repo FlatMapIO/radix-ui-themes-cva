@@ -1,6 +1,8 @@
 
 # Radix UI Themes CVA
 
+Use the radix-ui theme css in the same way as [cva](https://cva.style/docs/getting-started/variants), introducing a powerful design system to your application without having to introduce messy frameworks.
+
 
 See [radix-ui](https://www.radix-ui.com/themes/docs/overview/getting-started) for documentation.
 
@@ -31,14 +33,16 @@ See [radix-ui](https://www.radix-ui.com/themes/docs/overview/getting-started) fo
 `main.tsx`
 
 ```tsx
+import { container, flex, iconButton } from 'radix-ui-themes-cva'
 
-
-import { iconButton } from 'radix-ui-themes-cva'
-
-
-const App = () => {
-  return <button class={iconButton({ size: '1', variant:'solid' })} > 🐰🥕 </button>
+export const App = () => {
+  return (
+    <div class={container.root({ size: 1 })}>
+      <div class={[container.inner(), flex({ gap: '3' })]}>
+        <button class={iconButton({ size: '1', variant: 'solid' })}>🐰</button>
+        <button class={iconButton({ size: '1', variant: 'solid' })}>🥕</button>
+      </div>
+    </div>
+  )
 }
-
-
 ```
